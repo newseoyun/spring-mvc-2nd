@@ -49,6 +49,6 @@ public class LoginCheckFilter implements Filter {
      * 화이트리스트는 인증 체크 X
      */
     private boolean isLoginCheckPath(String requestURI) {
-        return PatternMatchUtils.simpleMatch(whitelist, requestURI);
+        return !PatternMatchUtils.simpleMatch(whitelist, requestURI);
     }
 }
