@@ -1,7 +1,5 @@
 package hello.exception.exception;
 
-import org.springframework.stereotype.Component;
-
 public class UserException extends RuntimeException {
 
     public UserException() {

@@ -50,7 +50,6 @@ public class ApiExceptionController {
     }
 
 
-
     @Data
     @AllArgsConstructor
     static class MemberDto {
